@@ -49,7 +49,7 @@ setup(
         "packaging>=19.1",
         "psutil",
         "requests",
-        "semver>=2.7.9,<3.0.0",
+        "semver>=2.7.9,<4.0.0",
         # We want newer setuptools to avoid shim path bug on newer Pythons.
         # See #231 and https://github.com/pypa/setuptools/issues/3001
         # Unfortunately, that version of setuptools doesn't have Python 3.6 support
